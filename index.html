@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Stargazers log</title>
-  </head>
-  <body>
-    <h1>Stargazers log</h1>
-    <p>A log of the repositories I've starred.</p>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <title>Stargazers log</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>  
+    </head>
+    <body>
+        <main>
+            <h1>Stargazers log</h1>
+            <p class="intro">A log of the repositories I've starred.</p>
+            <p id="status" role="status">Loading starred repositories…</p>
+            <ul id="repository-list" aria-label="Starred repositories"></ul>
+        </main>
+    </body>
 </html>
